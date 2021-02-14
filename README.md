@@ -10,12 +10,14 @@ Memory: 64GB
 HDD: 7.3TB
 
 Internet: 
-
 $ speedtest-cli 
 Hosted by fdcservers.net (Tokyo) [11.02 km]: 13.876 ms
 Download: 187.32 Mbit/s
 Upload: 96.06 Mbit/s
 
+OS: Ubuntu 20.04 LTS
+
+Software version: bitcoin-sv-1.0.5
 ```
 
 
