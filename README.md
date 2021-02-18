@@ -29,7 +29,7 @@ $ sudo pip3 install numpy matplotlib
 $ python3 plot-unconfirmed_tx-difficulty-hash_rate.py 
 
 $ python3 plot-queue_occupancy_rate.py 
-average occupancy rate: 1.0118902422783222
+average occupancy rate (= rho): 1.0118902422783222
 1-1/rho = 0.011750525681076596
 ```
 
@@ -55,6 +55,6 @@ $ sudo pip3 install powerlaw
 $ python3 tx_confirmation_latency_analysis.py 
 alpha: 2.2408700769198675
 sigma: 0.023731602028076185
-power law vs. exponential: (282.5344467132366, 1.9772250598634115e-12)
+power law vs. exponential: (282.5344467132366, 1.9772250598634115e-12) --> power law!
 ```
 

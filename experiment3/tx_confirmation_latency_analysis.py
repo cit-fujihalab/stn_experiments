@@ -60,6 +60,7 @@ fit = powerlaw.Fit(latency_list)
 print("alpha:", fit.power_law.alpha)
 print("sigma:", fit.power_law.sigma)
 print("power law vs. exponential:", fit.distribution_compare('power_law', 'exponential'))
+print("power law vs. truncated power law:", fit.distribution_compare('power_law', 'truncated_power_law'))
 fit.power_law.plot_pdf(color="red", linestyle="--")
 #sys.exit(0)
 
